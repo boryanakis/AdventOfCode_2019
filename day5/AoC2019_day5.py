@@ -51,9 +51,7 @@ def reduce(polymer:list):
 elements = list(set(polymerString.lower()))
 print('num of unit types:',len(elements))
 
-# translationtable = str.maketrans("(", "-", ",$)")
-# "($12,990)".translate(translationtable)
-# '-12990'
+
 print('polymer length:', len(polymer))
 for element in elements:
     forbiddenChars = [element, element.upper()]
